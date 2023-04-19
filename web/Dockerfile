@@ -1,4 +1,4 @@
-FROM python:3.6-alpine
+FROM python
 
 RUN apk update
 RUN apk add postgresql-dev gcc python3-dev musl-dev libffi-dev bash
